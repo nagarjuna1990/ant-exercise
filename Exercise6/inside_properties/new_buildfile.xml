@@ -1,7 +1,0 @@
-<project name="hello" default="test">
-	<property file="Inside_properties.properties" />
-	<target name="test">
-		<echo> you are site:${sitename} and version is:${version} </echo>
-	</target>
-
-</project>
