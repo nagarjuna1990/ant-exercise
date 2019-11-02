@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<project name="Hello World Project" default="info">
+
+   <target name="info">
+      <echo>Apache Ant version is ---  ${ant.version}</echo>
+	  <echo>Build File Location   ---  ${ant.file} </echo>
+	  <echo>Base Directory   ---  ${basedir} </echo>
+	  <echo>The Java Version   ---  ${ant.java.version} </echo>
+	  <echo>The Project Name   ---  ${ant.project.name} </echo>
+	  <echo>The Project Default Target   ---  ${ant.project.default-target} </echo>
+	  <echo>The Invoked Targets   ---  ${ant.project.invoked-targets} </echo>
+	  <echo>The Ant Core Library   ---  ${ant.core.lib} </echo>
+	  <echo>The Ant Home Directory   ---  ${ant.home} </echo>
+	  <echo>The Ant Library Directory   ---  ${ant.library.dir} </echo>
+   </target>
+   
+   
+</project>

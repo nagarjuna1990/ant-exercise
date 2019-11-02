@@ -1,0 +1,11 @@
+<project name="test" default="test">
+
+    
+	<target name="test">
+		<echo> x value is: ${x} </echo>
+		<echo> y value is: ${y} </echo>
+	</target>
+	
+
+
+</project>
